@@ -1,5 +1,6 @@
 Curso git
 *.class
+*.html
 Libros
 **/logs
 **/out
