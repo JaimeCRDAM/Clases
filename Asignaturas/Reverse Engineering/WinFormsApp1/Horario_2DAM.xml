@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<horario>
+  <hora id="1ª">
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>GESTIÓN EMPRESARIAL</pantalla>
+      <ayuda>GESTIÓN EMPRESARIAL
+Cecilia</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>EIE</pantalla>
+      <ayuda>EIE
+Isabel</ayuda>
+    </dia>
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+  </hora>
+  <hora id="2ª">
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PSP</pantalla>
+      <ayuda>PSP
+Fernando</ayuda>
+    </dia>
+  </hora>
+  <hora id="3ª">
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PSP</pantalla>
+      <ayuda>PSP
+Fernando</ayuda>
+    </dia>
+  </hora>
+  <hora id="4ª">
+    <dia>
+      <pantalla>PROGRAMACIÓN MULTIMEDIA</pantalla>
+      <ayuda>PROGRAMACIÓN MULTIMEDIA
+Jose Luis</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PROGRAMACIÓN MULTIMEDIA</pantalla>
+      <ayuda>PROGRAMACIÓN MULTIMEDIA
+Jose Luis</ayuda>
+    </dia>
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>GESTIÓN EMPRESARIAL</pantalla>
+      <ayuda>GESTIÓN EMPRESARIAL
+Cecilia</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+  </hora>
+  <hora id="5ª">
+    <dia>
+      <pantalla>EIE</pantalla>
+      <ayuda>EIE
+Isabel</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PROGRAMACIÓN MULTIMEDIA</pantalla>
+      <ayuda>PROGRAMACIÓN MULTIMEDIA
+Jose Luis</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PSP</pantalla>
+      <ayuda>PSP
+Fernando</ayuda>
+    </dia>
+    <dia>
+      <pantalla>GESTIÓN EMPRESARIAL</pantalla>
+      <ayuda>GESTIÓN EMPRESARIAL
+Cecilia</ayuda>
+    </dia>
+    <dia>
+      <pantalla>ACCESO A DATOS</pantalla>
+      <ayuda>ACCESO A DATOS
+Joaquin</ayuda>
+    </dia>
+  </hora>
+  <hora id="6ª">
+    <dia>
+      <pantalla>GESTIÓN EMPRESARIAL</pantalla>
+      <ayuda>GESTIÓN EMPRESARIAL
+Cecilia</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PSP</pantalla>
+      <ayuda>PSP
+Fernando</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PSP</pantalla>
+      <ayuda>PSP
+Fernando</ayuda>
+    </dia>
+    <dia>
+      <pantalla>DESARROLLO DE INTERFACES</pantalla>
+      <ayuda>DESARROLLO DE INTERFACES
+Jose Alberto</ayuda>
+    </dia>
+    <dia>
+      <pantalla>PROGRAMACIÓN MULTIMEDIA</pantalla>
+      <ayuda>PROGRAMACIÓN MULTIMEDIA
+Jose Luis</ayuda>
+    </dia>
+  </hora>
+</horario>

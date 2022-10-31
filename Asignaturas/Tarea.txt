@@ -1,0 +1,1 @@
+recycler view, long tap lo borra y se recarga

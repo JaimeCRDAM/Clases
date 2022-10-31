@@ -1,0 +1,21 @@
+<Horario>
+  <horas>
+    <Hora>Primera</Hora>
+  </horas>
+  <horas>
+    <Hora>Segunda</Hora>
+    <lunes>Iniciativa empre</lunes>
+  </horas>
+  <horas>
+    <Hora>Tercera</Hora>
+  </horas>
+  <horas>
+    <Hora>Cuarta</Hora>
+  </horas>
+  <horas>
+    <Hora>Quinta</Hora>
+  </horas>
+  <horas>
+    <Hora>Sexta</Hora>
+  </horas>
+</Horario>
