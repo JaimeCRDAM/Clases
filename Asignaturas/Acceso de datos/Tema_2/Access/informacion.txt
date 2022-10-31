@@ -1,0 +1,11 @@
+1º Descomprimimos las librerias y las pasamos a la carpeta librerias_java.
+2º En eclipse, importamos las librerias, build path.
+3º ponemos el driver y nos conectamos
+
+Class.forName("net.ucanaccess.jdbc.UcanaccessDriver"); //Linea que carga el driver
+Connection conexion = DriverManager.getConnection("jdbc:ucanaccess://D:\\Access\\Departamentos.accdb");//ruta de la base de datos
+
+
+
+
+https://basedatosaccessjava.blogspot.com.es/2016/12/lo-primero-que-necesitamos-es-descargar.html

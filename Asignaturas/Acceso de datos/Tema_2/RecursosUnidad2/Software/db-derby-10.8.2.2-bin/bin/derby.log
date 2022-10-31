@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Tue Oct 25 10:35:45 CEST 2022:
+ Arrancando Derby versión The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instancia a816c00e-0184-0e48-86ae-00000f52f8b0 
+en el directorio de base de datos C:\Users\dam201\Clases\Asignaturas\Acceso de datos\Tema 2\RecursosUnidad2\Software\db-derby-10.8.2.2-bin\bin\ejemplo  con el cargador de clases jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93
+
+java.vendor=Oracle Corporation
+java.runtime.version=18.0.2.1+1-1
+user.dir=C:\Users\dam201\Clases\Asignaturas\Acceso de datos\Tema 2\RecursosUnidad2\Software\db-derby-10.8.2.2-bin\bin
+derby.system.home=null
+Cargador de clases de base de datos iniciado - derby.database.classpath=''

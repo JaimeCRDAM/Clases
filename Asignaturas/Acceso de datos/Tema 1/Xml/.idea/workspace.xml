@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b6a246d-71af-4248-8ba4-85e6037dc8cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xml/alumnos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xml/alumnosPlantilla.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xml/src/Ejercicios/Transformar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/.vs/ProjectEvaluation/winformsapp1.metadata.v5.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/.vs/ProjectEvaluation/winformsapp1.projects.v5.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/.vs/WinFormsApp1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/.vs/WinFormsApp1/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/.vs/WinFormsApp1/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/WinFormsApp1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/WinFormsApp1.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.designer.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/Debug/net6.0-windows/WinFormsApp1.designer.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/WinFormsApp1.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/WinFormsApp1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/WinFormsApp1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/Tema 2/WinFormsApp1/WinFormsApp1/obj/project.nuget.cache" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="h4h5014t" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FwPjd75ivF2MrCVWuZsgS2DV86" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dam201/Clases/Asignaturas/Acceso de datos/Xml/Xml"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dam201\Clases\Asignaturas\Acceso de datos\Xml\Xml" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b6a246d-71af-4248-8ba4-85e6037dc8cb" name="Changes" comment="" />
+      <created>1665400310041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665400310041</updated>
+      <workItem from="1665400311436" duration="251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

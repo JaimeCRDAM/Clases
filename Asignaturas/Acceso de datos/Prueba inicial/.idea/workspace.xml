@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e9f07e-cf69-4e3d-96b8-5caa6bf7a7c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.metadata.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.metadata.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.projects.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.projects.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Ejercicios/Ejercicio_1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Ejercicios/Ejercicio_1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Program.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="xva3aliu" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ez60Yr2sHfaZTb7EBAwRCMx6l3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dam201/Clases/Asignaturas/Acceso de datos/Prueba inicial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e9f07e-cf69-4e3d-96b8-5caa6bf7a7c9" name="Changes" comment="" />
+      <created>1663585842530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663585842530</updated>
+      <workItem from="1663585843922" duration="430000" />
+      <workItem from="1663757521090" duration="10000" />
+      <workItem from="1663757547486" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
