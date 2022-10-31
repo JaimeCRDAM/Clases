@@ -1,13 +1,12 @@
-from abc import *
 from math import *
 from Models.Enum import EstatusSocial
 
 
-class ADinos(ABC):
-    def __init__(self):
-        self._energia = None
+class ADinos:
+    def __init__(self, lista_dinos: list, lista_localizaciones):
+        self._velocidad = None
+        self._energia = 100
         self._posicion = None
-        self._velocidad = 0
         self._EstatusSocial: EstatusSocial = EstatusSocial.Nada
 
     @property
@@ -15,7 +14,7 @@ class ADinos(ABC):
         return self._energia
 
     @property
-    def velocidad(self) -> int:
+    def velocidad(self):
         return self._velocidad
 
     @velocidad.setter

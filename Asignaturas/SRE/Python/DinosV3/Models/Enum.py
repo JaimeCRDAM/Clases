@@ -13,12 +13,13 @@ class Posibilidades(Enum):
     Nada = 3
 
 
-from .Tyrannosaurus_Rex import Tyranosaurus
-from .Spinosaurus import Spinosaurus
-from .Triceratops import Triceratops
-
-
 class Dinos(Enum):
-    Spino: Spinosaurus = Spinosaurus()
-    Trice: Triceratops = Triceratops()
-    Tyra: Tyranosaurus = Tyranosaurus()
+    from Factories.Factories import SpinoFactory
+    from Factories.Factories import TyraFactory
+    from Factories.Factories import TriceFactory
+    from Models.Spinosaurus import Spinosaurus
+    from Models.Triceratops import Triceratops
+    from Models.Tyrannosaurus_Rex import Tyranosaurus
+    Spino: Spinosaurus = SpinoFactory
+    Trice: TriceFactory = Triceratops
+    Tyra: TyraFactory = Tyranosaurus

@@ -1,9 +1,10 @@
-from Interfaces import IDino
+from Interfaces.IDino import IDino
 from abc import *
 
 
-class Triceratops(IDino.IDino, ABC):
-    def __init__(self):
-        super().__init__()
-        self.velocidad = 5
+class Triceratops(IDino):
+    def __init__(self, lista_dinos, lista_localizaciones):
+        IDino.__init__(self, lista_dinos, lista_localizaciones)
+
+
     

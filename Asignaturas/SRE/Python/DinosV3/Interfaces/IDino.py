@@ -5,8 +5,10 @@ from random import random
 
 
 class IDino(ADinos, ABC):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lista_dinos: list, lista_localizaciones):
+        super().__init__(lista_dinos, lista_localizaciones)
+        self.lista_localizaciones = lista_localizaciones
+        self.lista_dinos = lista_dinos
 
     def atacado(self) -> Enum.Posibilidades:
         if self.EstatusSocial == Enum.EstatusSocial.Manada:
@@ -28,4 +30,4 @@ class IDino(ADinos, ABC):
         ox, oy = self.posicion
         lista[ox][oy] = None
         lista[nx][ny] = self
-        self.energia -= self.calcenergia(pos)
+        self.energia = -self.calcenergia(pos)
