@@ -1,13 +1,11 @@
-from abc import ABC
-
-from Abstracts.ADinos import ADinos
-from Interfaces.IDino import IDino
-from Interfaces.ICarnivoro import ICarnivoros
+from Enums.EInterfaces import IDinos
 
 
-class Spinosaurus(IDino, ICarnivoros):
+class Spinosaurus(IDinos.IDino.value, IDinos.ICarnivoros.value):
     def __init__(self, lista_dinos, lista_localizaciones):
-        IDino.__init__(self, lista_dinos, lista_localizaciones)
-        ICarnivoros.__init__(self, lista_dinos, lista_localizaciones)
+        IDinos.IDino.value.__init__(self, lista_dinos, lista_localizaciones)
+        IDinos.ICarnivoros.value.__init__(self, lista_dinos, lista_localizaciones)
 
-
+    @property
+    def probabilidad(self) -> int:
+        return 30

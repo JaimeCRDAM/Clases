@@ -1,8 +1,9 @@
+from abc import *
 from math import *
-from Models.Enum import EstatusSocial
+from Enums.EGeneral import EstatusSocial
 
 
-class ADinos:
+class ADinos(ABC):
     def __init__(self, lista_dinos: list, lista_localizaciones):
         self._velocidad = None
         self._energia = 100
@@ -20,9 +21,6 @@ class ADinos:
     @velocidad.setter
     def velocidad(self, velocidad: int):
         self._velocidad = velocidad
-
-    def comer(self):
-        self.energia += 100
 
     @energia.setter
     def energia(self, value):
@@ -48,3 +46,9 @@ class ADinos:
         mx, my = self.posicion
         hx, hy = posicion
         return sqrt(pow(hx - mx, 2) + pow(hy - my, 2))
+
+    @property
+    @abstractmethod
+    def probabilidad(self) -> int:
+        pass
+
