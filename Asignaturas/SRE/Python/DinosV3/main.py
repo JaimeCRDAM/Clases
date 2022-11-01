@@ -3,7 +3,6 @@ import time
 
 from Enums.EInterfaces import IDinos
 from Enums.EFactories import DinosFactory
-import threading
 
 listaDinos: list[IDinos.IDino.value | IDinos.ICarnivoros.value] = []
 localizacion: list[list[IDinos.IDino.value | None]] = [[None] * 10 for i in [1] * 10]
@@ -45,7 +44,7 @@ def main():
             parents = type(dino).mro()
             if IDinos.ICarnivoros.value in parents:
                 counter -= 1
-        time.sleep(1000)
+        time.sleep(1)
 
 
 if __name__ == '__main__':
