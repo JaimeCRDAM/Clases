@@ -23,6 +23,7 @@ class MiAdaptadorRecycler(var personajes : ArrayList<Personaje>,var  context: Co
     companion object {
         //Esta variable estática nos será muy útil para saber cual está marcado o no.
         var seleccionado:Int = -1
+        var lista:ArrayList<Int> = ArrayList()
         /*
         PAra marcar o desmarcar un elemento de la lista lo haremos diferente a una listView. En la listView el listener
         está en la activity por lo que podemos controlar desde fuera el valor de seleccionado y pasarlo al adapter, asociamos
@@ -126,27 +127,32 @@ class MiAdaptadorRecycler(var personajes : ArrayList<Personaje>,var  context: Co
             }
 
             //Para marcar o desmarcar al seleccionado usamos el siguiente código.
-            if (pos == MiAdaptadorRecycler.seleccionado) {
+            if (pos == MiAdaptadorRecycler.seleccionado || lista.contains(pos)) {
                 with(nombrePersonaje) {
                     this.setTextColor(resources.getColor(R.color.purple_200, null))
                 }
                 with(view){
-                    this.setBackgroundColor(R.color.teal_700)
+                    this.setBackgroundColor(resources.getColor(R.color.teal_700, null))
                 }
             }
             else {
                 with(nombrePersonaje) {
                     this.setTextColor(resources.getColor(R.color.black, null))
                 }
+                with(view){
+                    this.setBackgroundColor(resources.getColor(R.color.white, null))
+                }
             }
             //Se levanta una escucha para cada item. Si pulsamos el seleccionado pondremos la selección a -1, en otro caso será el nuevo sleccionado.
             itemView.setOnClickListener(View.OnClickListener
                     {
-                        if (pos == MiAdaptadorRecycler.seleccionado){
+                        if (pos == MiAdaptadorRecycler.seleccionado || lista.contains(pos)){
+                            lista.remove(pos)
                             MiAdaptadorRecycler.seleccionado = -1
                         }
                         else {
                             MiAdaptadorRecycler.seleccionado = pos
+                            lista.add(pos)
                         }
                         //Con la siguiente instrucción forzamos a recargar el viewHolder porque han cambiado los datos. Así pintará al seleccionado.
                         miAdaptadorRecycler.notifyDataSetChanged()

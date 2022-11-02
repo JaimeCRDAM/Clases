@@ -1,18 +1,20 @@
 package com.example.myapplication
 
 import Adaptadores.MiAdaptadorRecycler
-import Modelo.FactoriaListaPersonaje
+import Modelo.*
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    var personajes = FactoriaListaPersonaje.generaLista(12)
+    var personajes:ArrayList<Personaje> = FactoriaListaPersonaje.generaLista(12)
     lateinit var miRecyclerView : RecyclerView
     lateinit var binding: ActivityMainBinding
 
@@ -21,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
 
+        var SQLitedb = FeedReaderDbHelper(this)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -32,6 +35,14 @@ class MainActivity : AppCompatActivity() {
         var miAdapter = MiAdaptadorRecycler(personajes, this)
         miRecyclerView.adapter = miAdapter
 
+        var resultLauncher =
+            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+                if (result.resultCode == RESULT_OK) {
+                    val data = result.data?.extras?.get("personaje") as Personaje
+                    personajes.add(data)
+                    miAdapter.notifyItemInserted(personajes.lastIndex)
+                }
+            }
 
 
         binding.btDetalle.setOnClickListener {
@@ -42,6 +53,11 @@ class MainActivity : AppCompatActivity() {
             else {
                 Toast.makeText(this,"Selecciona algo previamente", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        binding.BTNRegistrar.setOnClickListener{
+            val intent = Intent(this, registrar::class.java)
+            resultLauncher.launch(intent)
         }
 
     }
