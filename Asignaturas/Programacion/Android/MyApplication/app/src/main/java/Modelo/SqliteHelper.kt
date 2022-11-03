@@ -4,10 +4,12 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class FeedReaderDbHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
+class FeedReaderDbHelper(val context: Context, val DATABASE_NAME: String) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
+    val db = readableDatabase
 
     override fun onCreate(db: SQLiteDatabase) {
-        db.execSQL(createTableQuery)
+        if (!existe(context)) db.execSQL(createTableQuery); return;
+
     }
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         // This database is only a cache for online data, so its upgrade policy is
@@ -21,7 +23,6 @@ class FeedReaderDbHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_
     companion object {
         // If you change the database schema, you must increment the database version.
         private val DATABASE_VERSION = 1
-        private val DATABASE_NAME = "sqlitedb.db"
         private val TABLE_NAME = "mydb"
         private val id = "id"
         private val nombre = "name"
