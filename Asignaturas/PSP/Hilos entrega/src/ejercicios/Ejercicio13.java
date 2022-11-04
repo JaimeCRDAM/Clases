@@ -16,7 +16,7 @@ public class Ejercicio13 {
             new Thread(){
                 @Override
                 public void run() {
-                    new Escritor(letras[finalI], clase);
+                    //new Escritor(letras[finalI], clase);
                 }
             }.start();
         }
