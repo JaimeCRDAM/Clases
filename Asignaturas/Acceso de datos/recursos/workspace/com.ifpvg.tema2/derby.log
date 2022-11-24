@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Wed Nov 24 21:34:32 CET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-017d-53a8-30e5-00000b582fd0 
+on database directory C:\db-derby-10.8.2.2-bin\bin\ejemplo  with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2fc14f68 
+Loaded from file:/C:/Librerias_java/derby.jar
+java.vendor=Eclipse Foundation
+java.runtime.version=11.0.12+7
+user.dir=C:\Users\LENOVO\workspace\com.ifpvg.tema2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

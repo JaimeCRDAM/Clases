@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 16-dic-2021 12:18:30 by Hibernate Tools 5.5.7.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="segundo.Equipo" optimistic-lock="none" polymorphism="implicit" select-before-update="false" table="EQUIPO">
+        <id name="codequipo" type="string">
+            <column length="2" name="CODEQUIPO"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="denoequipo" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="DENOEQUIPO" unique="true"/>
+        </property>
+        <property generated="never" lazy="false" name="entrenador" optimistic-lock="true" type="string" unique="false">
+            <column length="28" name="ENTRENADOR"/>
+        </property>
+        <property generated="never" lazy="false" name="provincia" optimistic-lock="true" type="string" unique="false">
+            <column length="2" name="PROVINCIA"/>
+        </property>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="jugadoreses" optimistic-lock="true" sort="unsorted" table="JUGADORES">
+            <key on-delete="noaction">
+                <column length="2" name="EQUIPO" not-null="true"/>
+            </key>
+            <one-to-many class="segundo.Jugadores" embed-xml="true" not-found="exception"/>
+        </set>
+    </class>
+</hibernate-mapping>

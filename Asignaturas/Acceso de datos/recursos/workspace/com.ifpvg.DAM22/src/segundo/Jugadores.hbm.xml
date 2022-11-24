@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 16-dic-2021 12:18:30 by Hibernate Tools 5.5.7.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="segundo.Jugadores" optimistic-lock="none" polymorphism="implicit" select-before-update="false" table="JUGADORES">
+        <composite-id class="segundo.JugadoresId" mapped="false" name="id" unsaved-value="undefined">
+            <key-property name="equipo" type="string">
+                <column length="2" name="EQUIPO"/>
+            </key-property>
+            <key-property name="codjugador" type="big_integer">
+                <column name="CODJUGADOR" precision="22" scale="0"/>
+            </key-property>
+        </composite-id>
+        <many-to-one class="segundo.Equipo" embed-xml="true" fetch="select" insert="false" name="equipo" not-found="exception" optimistic-lock="true" unique="false" update="false">
+            <column length="2" name="EQUIPO" not-null="true"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="nya" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="NYA"/>
+        </property>
+        <property generated="never" lazy="false" name="edad" optimistic-lock="true" type="java.lang.Byte" unique="false">
+            <column name="EDAD" precision="2" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="grupo" optimistic-lock="true" type="java.lang.Character" unique="false">
+            <column length="1" name="GRUPO"/>
+        </property>
+    </class>
+</hibernate-mapping>

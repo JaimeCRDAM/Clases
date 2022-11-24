@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateLib"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Librerias_java/Librerias Hibernate/slf4j-simple-1.6.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
