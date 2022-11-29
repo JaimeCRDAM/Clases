@@ -16,3 +16,20 @@ C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia 
 C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.pdb
 C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Form2.resources
 C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Form3.resources
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\Persistencia.netframework.dll.config
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\Persistencia.netframework.dll
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\Persistencia.netframework.pdb
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\EntityFramework.dll
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\EntityFramework.xml
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia .netframework.csproj.AssemblyReference.cache
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Form1.resources
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Form2.resources
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Form3.resources
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.Properties.Resources.resources
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia .netframework.csproj.GenerateResource.cache
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia .netframework.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia .netframework.csproj.CopyComplete
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.dll
+C:\Users\dam201\Clases\Asignaturas\Asignaturas\Desarrollo de interfaces\Tema 3\Persistencia .netframework\obj\Debug\Persistencia.netframework.pdb

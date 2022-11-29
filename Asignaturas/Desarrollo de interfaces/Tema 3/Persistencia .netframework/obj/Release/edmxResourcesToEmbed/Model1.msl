@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="videoclubBinario2ModelStoreContainer" CdmEntityContainer="videoclubBinario2Entities">
+    <EntitySetMapping Name="alquileres">
+      <EntityTypeMapping TypeName="videoclubBinario2Model.alquileres">
+        <MappingFragment StoreEntitySet="alquileres">
+          <ScalarProperty Name="codAlquiler" ColumnName="codAlquiler" />
+          <ScalarProperty Name="fechaAlquiler" ColumnName="fechaAlquiler" />
+          <ScalarProperty Name="socio" ColumnName="socio" />
+          <ScalarProperty Name="pelicula" ColumnName="pelicula" />
+          <ScalarProperty Name="fechaDevolucion" ColumnName="fechaDevolucion" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categorias">
+      <EntityTypeMapping TypeName="videoclubBinario2Model.categorias">
+        <MappingFragment StoreEntitySet="categorias">
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="estilos">
+      <EntityTypeMapping TypeName="videoclubBinario2Model.estilos">
+        <MappingFragment StoreEntitySet="estilos">
+          <ScalarProperty Name="estilo" ColumnName="estilo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="peliculas">
+      <EntityTypeMapping TypeName="videoclubBinario2Model.peliculas">
+        <MappingFragment StoreEntitySet="peliculas">
+          <ScalarProperty Name="codpeli" ColumnName="codpeli" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="director" ColumnName="director" />
+          <ScalarProperty Name="protagonista" ColumnName="protagonista" />
+          <ScalarProperty Name="argumento" ColumnName="argumento" />
+          <ScalarProperty Name="estilo" ColumnName="estilo" />
+          <ScalarProperty Name="anio" ColumnName="anio" />
+          <ScalarProperty Name="caratula" ColumnName="caratula" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios">
+      <EntityTypeMapping TypeName="videoclubBinario2Model.socios">
+        <MappingFragment StoreEntitySet="socios">
+          <ScalarProperty Name="idSocio" ColumnName="idSocio" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apell1" ColumnName="apell1" />
+          <ScalarProperty Name="apell2" ColumnName="apell2" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="localidad" ColumnName="localidad" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
