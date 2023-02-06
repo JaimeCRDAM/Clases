@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "428520534251",
+    "project_id": "primer-6ff45",
+    "storage_bucket": "primer-6ff45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428520534251:android:f1afc3a59530492e3c8eae",
+        "android_client_info": {
+          "package_name": "com.example.autenticacionfirebase2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428520534251-ikt1ci8f9pcfu19boi0fjicum2s41vid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autenticacionfirebase2023",
+            "certificate_hash": "e0b5ed7e8f2209a83c46c5bc86ee5e12c731dc51"
+          }
+        },
+        {
+          "client_id": "428520534251-32fabielb2d6ieru9moachagh204thta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArrlRtFN_WhD7Dc41nljqq2zE7yBjI1aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428520534251-32fabielb2d6ieru9moachagh204thta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = layouts
+build_property.ProjectDir = C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 8\layouts\layouts\
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/controles/boxView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.controles.boxView.xaml
+build_metadata.AdditionalFiles.TargetPath = controles\boxView.xaml
+build_metadata.AdditionalFiles.RelativePath = controles\boxView.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/Desktop.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.Desktop.xaml
+build_metadata.AdditionalFiles.TargetPath = Desktop.xaml
+build_metadata.AdditionalFiles.RelativePath = Desktop.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/paginasRandom/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.paginasRandom.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = paginasRandom\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = paginasRandom\MainPage.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/paginasRandom/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.paginasRandom.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = paginasRandom\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = paginasRandom\NewPage1.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/paginasRandom/NewPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.paginasRandom.NewPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = paginasRandom\NewPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = paginasRandom\NewPage2.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/paginasRandom/NewPage3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.paginasRandom.NewPage3.xaml
+build_metadata.AdditionalFiles.TargetPath = paginasRandom\NewPage3.xaml
+build_metadata.AdditionalFiles.RelativePath = paginasRandom\NewPage3.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/dam201/Clases/Asignaturas/Desarrollo de interfaces/Tema 8/layouts/layouts/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = layouts.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

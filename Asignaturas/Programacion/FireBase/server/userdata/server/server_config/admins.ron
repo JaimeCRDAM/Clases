@@ -1,0 +1,7 @@
+V1({
+    "9da25d09-2f9a-47e0-94ab-c58f2a6c39e2": (
+        username_when_admined: Some("Hanndel"),
+        date: "2023-01-12T13:16:13.248874613Z",
+        role: Admin,
+    ),
+})

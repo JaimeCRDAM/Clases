@@ -1,1 +1,0 @@
-C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 2\MauiApp1\MauiApp1\MauiApp1.csproj;x64

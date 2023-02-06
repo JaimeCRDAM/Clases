@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam201\\Clases\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj": {}
+    "C:\\Users\\dam201\\Clases\\Asignaturas\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam201\\Clases\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj": {
+    "C:\\Users\\dam201\\Clases\\Asignaturas\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam201\\Clases\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj",
+        "projectUniqueName": "C:\\Users\\dam201\\Clases\\Asignaturas\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj",
         "projectName": "Plantilla",
-        "projectPath": "C:\\Users\\dam201\\Clases\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj",
+        "projectPath": "C:\\Users\\dam201\\Clases\\Asignaturas\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\Plantilla.csproj",
         "packagesPath": "C:\\Users\\dam201\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam201\\Clases\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\obj\\",
+        "outputPath": "C:\\Users\\dam201\\Clases\\Asignaturas\\Asignaturas\\Desarrollo de interfaces\\Plantilla\\Plantilla\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

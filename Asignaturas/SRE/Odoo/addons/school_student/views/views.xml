@@ -1,0 +1,125 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="school_student.student_list">
+      <field name="name">school_student.student list</field>
+      <field name="model">school_student.student</field>
+      <field name="arch" type="xml">
+        <tree decoration-info="birth_year>1990" decoration-warning="birth_year&lt;1980">
+          <field name="name"/>
+          <field name="birth_year" sum="Total"/>
+          <field name="password" />
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="school_student.teacher_list">
+      <field name="name">school_student.teacher list</field>
+      <field name="model">school_student.teacher</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <!--<field name="topic"/>-->
+          <!--<field name="phone" />-->
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="school_student.student_form">
+      <field name="name">school_student.student form</field>
+      <field name="model">school_student.student</field>
+      <field name="arch" type="xml">
+        <form>
+          <header>
+            <field name="state" widget="statusbar"/>
+          </header>
+          <sheet>
+            <field name="photo" widget="image"/>
+            <group>
+              <group>
+                <separator string="Personal Data"></separator>
+                <field name="name"/>
+                <field name="birth_year"/>
+                <field name="password" password="True"/>
+                <field name="dni"/>
+                <field name="description"/>
+              </group>
+              <group>
+                <separator string="Inscription Data"></separator>
+                <field name="inscription_date"/>
+                <field name="last_login"/>
+                <field name="is_student"/>
+                <!--<field name="level"/>
+                <field name="classroom" domain="[('level', '=', level)]"/>-->
+              </group>
+            </group>
+            <notebook>
+              <page name="teachers_page" string="Teachers">
+                <field name="teachers">
+                  <tree>
+                    <field name="name"/>
+                    <!--<field name="topic"/>-->
+                  </tree>
+                </field>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="school_student.action_student_window">
+      <field name="name">school student window</field>
+      <field name="res_model">school_student.student</field>
+      <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="school_student.action_classroom_window">
+      <field name="name">school classroom window</field>
+      <field name="res_model">school_student.classroom</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="school_student.action_teacher_window">
+      <field name="name">school teacher window</field>
+      <field name="res_model">school_student.teacher</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="school_student.action_server">
+      <field name="name">school server</field>
+      <field name="model_id" ref="model_school_school"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+
+    <menuitem name="school" id="school_student.menu_root"/>
+    <!-- menu categories -->
+
+    <menuitem name="Management" id="school_student.menu_1" parent="school_student.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="Students" id="school_student.menu_1_student_list" parent="school_student.menu_1"
+              action="school_student.action_student_window"/>
+    <menuitem name="Classrooms" id="school_student.menu_1_classroom_list" parent="school_student.menu_1"
+              action="school_student.action_classroom_window"/>
+    <menuitem name="Teachers" id="school_student.menu_1_teacher_list" parent="school_student.menu_1"
+              action="school_student.action_teacher_window"/>
+  </data>
+</odoo>

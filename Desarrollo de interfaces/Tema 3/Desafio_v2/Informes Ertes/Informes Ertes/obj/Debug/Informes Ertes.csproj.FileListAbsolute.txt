@@ -1,0 +1,64 @@
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Informes Ertes.exe.config
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Informes Ertes.exe
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Informes Ertes.pdb
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.csproj.AssemblyReference.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.csproj.SuggestedBindingRedirects.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes_Ertes.Properties.Resources.resources
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.csproj.GenerateResource.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.exe
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.pdb
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\EnvDTE.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\stdole.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes_Ertes.Form1.resources
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes Ertes\Informes Ertes\obj\Debug\Informes Ertes.csproj.CopyComplete

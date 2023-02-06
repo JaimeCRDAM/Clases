@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Reloj.MainPage">
+
+    <ScrollView>
+        <HorizontalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            BindableLayout.ItemsSource="{Binding Days}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Button
+                        Clicked="Button_Clicked"
+                        Text="{Binding .}"
+                        WidthRequest="50"/>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+            <BindableLayout.EmptyView>
+                <Label Text="Nose"/>
+            </BindableLayout.EmptyView>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>

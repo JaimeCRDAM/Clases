@@ -1,0 +1,138 @@
+2023-01-09 11:09:55,947 1 INFO ? odoo: Odoo version 15.0-20221226 
+2023-01-09 11:09:55,950 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-01-09 11:09:55,951 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-01-09 11:09:55,953 1 INFO ? odoo: database: odoo@db:5432 
+2023-01-09 11:09:56,086 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-01-09 11:09:56,225 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c9c486ff86b6:8069 
+2023-01-09 11:14:34,921 1 INFO OdooDB odoo.modules.loading: loading 1 modules... 
+2023-01-09 11:14:34,929 1 INFO OdooDB odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-01-09 11:14:34,942 1 INFO OdooDB odoo.modules.loading: loading 7 modules... 
+2023-01-09 11:14:35,078 1 INFO OdooDB odoo.modules.loading: 7 modules loaded in 0.13s, 0 queries (+0 extra) 
+2023-01-09 11:14:35,106 1 INFO OdooDB odoo.modules.loading: Modules loaded. 
+2023-01-09 11:14:35,110 1 INFO OdooDB odoo.modules.registry: Registry loaded in 0.203s 
+2023-01-09 11:14:35,113 1 INFO OdooDB odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-01-09 11:14:35,217 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:14:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 25 0.023 0.288
+2023-01-09 11:14:35,227 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-01-09 11:14:35,260 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:14:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.016 0.014
+2023-01-09 11:14:46,119 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:14:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.008
+2023-01-09 11:14:46,145 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:14:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.022 0.021
+2023-01-09 11:25:35,130 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.016 0.013
+2023-01-09 11:25:35,147 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.005
+2023-01-09 11:25:42,864 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:42] "POST /web/action/load HTTP/1.1" 200 - 45 0.034 0.040
+2023-01-09 11:25:42,978 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:42] "POST /web/dataset/call_kw/res.users/load_views HTTP/1.1" 200 - 65 0.039 0.062
+2023-01-09 11:25:43,009 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 16 0.008 0.009
+2023-01-09 11:25:43,022 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:43] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2023-01-09 11:25:51,359 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.016 0.014
+2023-01-09 11:25:51,378 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.007
+2023-01-09 11:25:54,432 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.021 0.013
+2023-01-09 11:25:54,447 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:54] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.004
+2023-01-09 11:25:54,463 1 INFO ? werkzeug: 172.21.0.1 - - [09/Jan/2023 11:25:54] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - - - -
+2023-01-09 11:26:00,231 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.024 0.014
+2023-01-09 11:26:00,249 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2023-01-09 11:26:00,262 1 INFO ? werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:00] "GET /base/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-01-09 11:26:17,912 1 INFO OdooDB odoo.sql_db: Connection to the database failed 
+2023-01-09 11:26:17,914 1 WARNING OdooDB odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.21.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-01-09 11:26:17,921 1 INFO OdooDB odoo.sql_db: Connection to the database failed 
+2023-01-09 11:26:17,925 1 WARNING OdooDB odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.21.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-01-09 11:26:18,859 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-01-09 11:26:18,863 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-01-09 11:26:19,286 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2023-01-09 11:26:20,877 1 INFO ? odoo: Odoo version 15.0-20221226 
+2023-01-09 11:26:20,879 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-01-09 11:26:20,880 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-01-09 11:26:20,881 1 INFO ? odoo: database: odoo@db:5432 
+2023-01-09 11:26:20,979 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-01-09 11:26:21,112 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c9c486ff86b6:8069 
+2023-01-09 11:26:23,154 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-01-09 11:26:23,170 1 INFO OdooDB odoo.modules.loading: loading 1 modules... 
+2023-01-09 11:26:23,178 1 INFO OdooDB odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-01-09 11:26:23,183 1 INFO OdooDB odoo.modules.loading: loading 7 modules... 
+2023-01-09 11:26:23,217 1 INFO OdooDB odoo.modules.loading: 7 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-01-09 11:26:23,245 1 INFO OdooDB odoo.modules.loading: Modules loaded. 
+2023-01-09 11:26:23,248 1 INFO OdooDB odoo.modules.registry: Registry loaded in 0.091s 
+2023-01-09 11:26:23,251 1 INFO OdooDB odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-01-09 11:26:23,567 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:23] "GET /web HTTP/1.1" 200 - 182 0.081 0.330
+2023-01-09 11:26:24,091 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "POST /web/action/load HTTP/1.1" 200 - 28 0.022 0.041
+2023-01-09 11:26:24,172 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.014 0.030
+2023-01-09 11:26:24,192 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.012 0.023
+2023-01-09 11:26:24,265 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.056 0.068
+2023-01-09 11:26:24,310 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.013 0.011
+2023-01-09 11:26:24,330 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2023-01-09 11:26:26,313 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.009
+2023-01-09 11:26:26,334 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.021 0.014
+2023-01-09 11:26:28,471 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.023 0.013
+2023-01-09 11:26:28,488 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:28] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.004
+2023-01-09 11:26:49,586 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.004
+2023-01-09 11:26:49,599 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:49] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2023-01-09 11:26:50,997 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.004
+2023-01-09 11:26:55,050 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:55] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 23 0.011 0.019
+2023-01-09 11:26:55,084 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.012 0.010
+2023-01-09 11:26:55,098 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2023-01-09 11:26:55,452 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.012 0.011
+2023-01-09 11:26:55,467 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2023-01-09 11:26:57,189 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.006
+2023-01-09 11:26:57,207 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:26:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.017 0.013
+2023-01-09 11:27:00,405 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.020 0.012
+2023-01-09 11:27:00,420 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.003
+2023-01-09 11:27:31,412 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "GET /web?debug=1 HTTP/1.1" 200 - 93 0.035 0.075
+2023-01-09 11:27:31,456 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "GET /web/webclient/load_menus/47b8d2d3c83dc58f78bd2950a0df7b8e348a2fa6454c82c8aecde65c87904c7c HTTP/1.1" 200 - 1 0.000 0.004
+2023-01-09 11:27:31,790 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.010
+2023-01-09 11:27:31,840 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 6 0.004 0.015
+2023-01-09 11:27:31,874 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 28 0.014 0.024
+2023-01-09 11:27:31,912 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.010
+2023-01-09 11:27:31,927 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:31] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.004
+2023-01-09 11:27:33,683 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.007
+2023-01-09 11:27:33,704 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.016
+2023-01-09 11:27:35,896 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.023 0.013
+2023-01-09 11:27:35,910 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.003
+2023-01-09 11:27:37,669 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:37] "POST /web/action/load HTTP/1.1" 200 - 16 0.009 0.010
+2023-01-09 11:27:37,691 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:37] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.005 0.006
+2023-01-09 11:27:37,705 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:37] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.002 0.003
+2023-01-09 11:27:39,623 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:39] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.003 0.006
+2023-01-09 11:27:39,637 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:39] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.002 0.005
+2023-01-09 11:27:39,647 1 INFO OdooDB odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user lnote@outlook.es #2 via 172.21.0.1 
+2023-01-09 11:27:40,016 1 WARNING OdooDB odoo.modules.module: Missing `license` key in manifest for 'school', defaulting to LGPL-3 
+2023-01-09 11:27:40,308 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 1072 0.315 0.349
+2023-01-09 11:27:42,888 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.006
+2023-01-09 11:27:42,906 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.013
+2023-01-09 11:27:45,312 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.022 0.013
+2023-01-09 11:27:45,327 1 INFO OdooDB werkzeug: 172.21.0.1 - - [09/Jan/2023 11:27:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.003
+2023-01-09 11:30:17,890 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-01-09 11:30:17,892 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-01-09 11:30:18,022 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-01-09 11:30:25,171 1 INFO ? odoo: Odoo version 15.0-20221226 
+2023-01-09 11:30:25,174 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-01-09 11:30:25,175 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-01-09 11:30:25,176 1 INFO ? odoo: database: odoo@db:5432 
+2023-01-09 11:30:25,283 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-01-09 11:30:25,445 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c9c486ff86b6:8069 

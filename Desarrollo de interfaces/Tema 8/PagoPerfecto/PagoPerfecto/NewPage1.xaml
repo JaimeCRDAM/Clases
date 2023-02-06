@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagoPerfecto.NewPage1"
+             Title="NewPage1"
+             BackgroundColor="#323232">
+    <ContentPage.Resources>
+        <Color x:Key="ColorSeccion">#444444</Color>
+        <Color x:Key="FuenteClara">#d6d6d6</Color>
+        <Color x:Key="FuenteOscura">#4fd8eb</Color>
+    </ContentPage.Resources>
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height=".6*"/>
+        </Grid.RowDefinitions>
+        <Frame
+        Padding="10"
+        BackgroundColor="{StaticResource ColorSeccion}"
+        BorderColor="Transparent">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".1*"/>
+                    <RowDefinition Height=".9*"/>
+                </Grid.RowDefinitions>
+                <Label
+                    Grid.ColumnSpan="3"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    Text="Por persona"
+                    TextColor="{StaticResource FuenteOscura}"/>
+                <Label
+                    x:Name="Total"
+                    Grid.Row="1"
+                    FontAttributes="Bold"
+                    FontSize="35"
+                    HorizontalTextAlignment="Center"
+                    Text="0.00€"
+                    TextColor="{StaticResource FuenteClara}"
+                    VerticalOptions="CenterAndExpand"/>
+                <BoxView
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="0, 10, 0, 0"
+                    VerticalOptions="Center"
+                    Color="#adadad"/>
+                <VerticalStackLayout
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Label Text="SubNormal" TextColor="{StaticResource FuenteClara}"/>
+                    <Label
+                        x:Name="SubTotal"
+                        FontAttributes="Bold"
+                        Text="0.00€"
+                        TextColor="{StaticResource FuenteClara}"/>
+                    <Label
+                        Margin="0,10,0,0"
+                        Text="Propina"
+                        TextColor="{StaticResource FuenteClara}"/>
+                    <Label
+                        x:Name="PropinaPorPersona"
+                        FontAttributes="Bold"
+                        Text="0.00€"
+                        TextColor="{StaticResource FuenteClara}"/>
+
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

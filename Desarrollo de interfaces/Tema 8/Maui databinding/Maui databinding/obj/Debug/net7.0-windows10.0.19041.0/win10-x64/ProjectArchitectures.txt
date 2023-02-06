@@ -1,0 +1,1 @@
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 8\Maui databinding\Maui databinding\Maui databinding.csproj;x64

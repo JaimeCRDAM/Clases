@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Modelos="clr-namespace:Maui_databinding.Modelos"
+             x:Class="Databinding.MainPage">
+
+    <ContentPage.Resources>
+        <Modelos:Persona
+            x:Key="personeja"
+            nombre="Jaime"
+            domicilio="Calle"
+            telefono="xxx"/>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="txtNombre"
+                FontSize="50"
+                Text="{Binding nombre}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label
+                x:Name="txtDomicilio"
+                FontSize="50"
+                Text="{Binding domicilio}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            <Label
+                x:Name="txtTelefono"
+                FontSize="50"
+                Text="{Binding telefono}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+            <Button
+                x:Name="btnProbar"
+                Clicked="btnProbarOnClick"
+                HorizontalOptions="Center"
+                Text="Probar"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27A8FEC2-F995-4AF6-B5B5-F942B60B39C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SG_PORRAJaime</RootNamespace>
+    <AssemblyName>SG_PORRAJaime</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrar_carpeta\AñadirUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrar_carpeta\AñadirUsuario.Designer.cs">
+      <DependentUpon>AñadirUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrar_carpeta\Equipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrar_carpeta\Equipos.Designer.cs">
+      <DependentUpon>Equipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrar_carpeta\Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrar_carpeta\Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bd_porraDataSet.cs">
+      <DependentUpon>bd_porraDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bd_porraDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bd_porraDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB\APUESTAS.cs">
+      <DependentUpon>db_Examen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB\db_Examen.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_Examen.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB\db_Examen.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_Examen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB\db_Examen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_Examen.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DB\EQUIPOS.cs">
+      <DependentUpon>db_Examen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB\PARTIDOS.cs">
+      <DependentUpon>db_Examen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB\USUARIOS.cs">
+      <DependentUpon>db_Examen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\FormConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\FormConsultas.Designer.cs">
+      <DependentUpon>FormConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Apuestas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Apuestas.Designer.cs">
+      <DependentUpon>Apuestas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Lista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Lista.Designer.cs">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Nuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Nuevo.Designer.cs">
+      <DependentUpon>Nuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Resultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partidos_carpeta\Resultado.Designer.cs">
+      <DependentUpon>Resultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\ComboItem.cs" />
+    <EmbeddedResource Include="Administrar_carpeta\AñadirUsuario.resx">
+      <DependentUpon>AñadirUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrar_carpeta\Equipos.resx">
+      <DependentUpon>Equipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrar_carpeta\Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\FormConsultas.resx">
+      <DependentUpon>FormConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partidos_carpeta\Apuestas.resx">
+      <DependentUpon>Apuestas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partidos_carpeta\Lista.resx">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partidos_carpeta\Nuevo.resx">
+      <DependentUpon>Nuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partidos_carpeta\Resultado.resx">
+      <DependentUpon>Resultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="DB\db_Examen.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>db_Examen.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="bd_porraDataSet.xsc">
+      <DependentUpon>bd_porraDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bd_porraDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bd_porraDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bd_porraDataSet.xss">
+      <DependentUpon>bd_porraDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB\db_Examen.edmx.diagram">
+      <DependentUpon>db_Examen.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB\db_Examen.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>db_Examen.Context.cs</LastGenOutput>
+      <DependentUpon>db_Examen.edmx</DependentUpon>
+    </Content>
+    <Content Include="DB\db_Examen.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>db_Examen.edmx</DependentUpon>
+      <LastGenOutput>db_Examen.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

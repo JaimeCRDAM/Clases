@@ -1,0 +1,64 @@
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Informes V3.exe.config
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Informes V3.exe
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Informes V3.pdb
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\EnvDTE.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\stdole.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.csproj.AssemblyReference.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.csproj.SuggestedBindingRedirects.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes_V3.Form1.resources
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes_V3.Properties.Resources.resources
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.csproj.GenerateResource.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.csproj.CoreCompileInputs.cache
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.csproj.CopyComplete
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.exe
+C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 3\Desafio_v2\Informes V3\Informes V3\obj\Debug\Informes V3.pdb

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM.MVVM.Views.PersonView"
+             Title="PersonView">
+    <VerticalStackLayout>
+        <Label 
+            Text="{Binding Person.Name}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Slider 
+            Value="{Binding Person.Age, Mode=TwoWay}" 
+            Minimum="0" 
+            Maximum="100" />
+        <Switch 
+            IsToggled="{Binding Person.IsMarried, Mode=TwoWay}" />
+        <DatePicker 
+            Date="{Binding Person.BirthDate, Mode=TwoWay}" />
+        <Entry 
+            Text="{Binding Person.Name, Mode=TwoWay}" />
+        <TimePicker 
+            Time="{Binding Person.BirthTime, Mode=TwoWay}" />
+    </VerticalStackLayout>
+</ContentPage>

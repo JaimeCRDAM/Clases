@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_porraModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="APUESTAS">
+    <Key>
+      <PropertyRef Name="Id_apuesta" />
+    </Key>
+    <Property Name="Id_apuesta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="int" Nullable="false" />
+    <Property Name="Partido" Type="int" Nullable="false" />
+    <Property Name="Apuesta" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="EQUIPOS">
+    <Key>
+      <PropertyRef Name="Id_equipo" />
+    </Key>
+    <Property Name="Id_equipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Escudo" Type="image" />
+  </EntityType>
+  <EntityType Name="PARTIDOS">
+    <Key>
+      <PropertyRef Name="Id_partido" />
+    </Key>
+    <Property Name="Id_partido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Hora" Type="time" Precision="7" Nullable="false" />
+    <Property Name="Equipo_local" Type="int" Nullable="false" />
+    <Property Name="Equipo_visitante" Type="int" Nullable="false" />
+    <Property Name="Resultado" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="Id_usuario" />
+    </Key>
+    <Property Name="Id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dni" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Domicilio" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CPostal" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <Association Name="apuestas_fk_par">
+    <End Role="PARTIDOS" Type="Self.PARTIDOS" Multiplicity="1" />
+    <End Role="APUESTAS" Type="Self.APUESTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARTIDOS">
+        <PropertyRef Name="Id_partido" />
+      </Principal>
+      <Dependent Role="APUESTAS">
+        <PropertyRef Name="Partido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="apuestas_fk_usu">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="APUESTAS" Type="Self.APUESTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="Id_usuario" />
+      </Principal>
+      <Dependent Role="APUESTAS">
+        <PropertyRef Name="Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="partidos_fk_eql">
+    <End Role="EQUIPOS" Type="Self.EQUIPOS" Multiplicity="1" />
+    <End Role="PARTIDOS" Type="Self.PARTIDOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EQUIPOS">
+        <PropertyRef Name="Id_equipo" />
+      </Principal>
+      <Dependent Role="PARTIDOS">
+        <PropertyRef Name="Equipo_local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="partidos_fk_eqv">
+    <End Role="EQUIPOS" Type="Self.EQUIPOS" Multiplicity="1" />
+    <End Role="PARTIDOS" Type="Self.PARTIDOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EQUIPOS">
+        <PropertyRef Name="Id_equipo" />
+      </Principal>
+      <Dependent Role="PARTIDOS">
+        <PropertyRef Name="Equipo_visitante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="bd_porraModelStoreContainer">
+    <EntitySet Name="APUESTAS" EntityType="Self.APUESTAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EQUIPOS" EntityType="Self.EQUIPOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PARTIDOS" EntityType="Self.PARTIDOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="apuestas_fk_par" Association="Self.apuestas_fk_par">
+      <End Role="PARTIDOS" EntitySet="PARTIDOS" />
+      <End Role="APUESTAS" EntitySet="APUESTAS" />
+    </AssociationSet>
+    <AssociationSet Name="apuestas_fk_usu" Association="Self.apuestas_fk_usu">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="APUESTAS" EntitySet="APUESTAS" />
+    </AssociationSet>
+    <AssociationSet Name="partidos_fk_eql" Association="Self.partidos_fk_eql">
+      <End Role="EQUIPOS" EntitySet="EQUIPOS" />
+      <End Role="PARTIDOS" EntitySet="PARTIDOS" />
+    </AssociationSet>
+    <AssociationSet Name="partidos_fk_eqv" Association="Self.partidos_fk_eqv">
+      <End Role="EQUIPOS" EntitySet="EQUIPOS" />
+      <End Role="PARTIDOS" EntitySet="PARTIDOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
