@@ -1,1 +1,0 @@
-C:\Users\dam201\Clases\Asignaturas\Desarrollo de interfaces\Tema 8\MauiApp1VS\MauiApp1VS\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\AppPackages\MauiApp1VS_1.0.0.1_Test\MauiApp1VS_1.0.0.1_x64.msix
