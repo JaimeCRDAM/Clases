@@ -1,4 +1,6 @@
-﻿namespace Lista_de_la_Compra;
+﻿using Lista_de_la_Compra.MVVM.Models;
+
+namespace Lista_de_la_Compra;
 
 public static class MauiProgram
 {
@@ -12,7 +14,7 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
-		return builder.Build();
+        builder.Services.AddSingleton<ListaItems>();
+        return builder.Build();
 	}
 }

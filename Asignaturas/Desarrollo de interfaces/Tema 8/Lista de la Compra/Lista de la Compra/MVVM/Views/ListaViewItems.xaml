@@ -1,0 +1,10 @@
+<newfolder:BaseContentPage  
+    xmlns:newfolder="clr-namespace:Lista_de_la_Compra.MVVM.Views" 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Lista_de_la_Compra.MVVM.Views.ListaViewItems" 
+    x:Name="BrowseItemsPage">
+    <Grid>
+        <Label >TEST</Label>
+    </Grid>
+</newfolder:BaseContentPage>

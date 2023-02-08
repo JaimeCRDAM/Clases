@@ -49,12 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="MVVM\Models\" />
-	  <Folder Include="MVVM\ViewModel\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="MVVM\Views\Header.xaml">
+	  <MauiXaml Update="MVVM\Views\BaseContentPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ListaViewItems.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

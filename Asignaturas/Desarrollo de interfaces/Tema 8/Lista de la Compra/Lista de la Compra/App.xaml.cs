@@ -1,11 +1,14 @@
-﻿namespace Lista_de_la_Compra;
+﻿using Lista_de_la_Compra.MVVM.Models;
+
+namespace Lista_de_la_Compra;
 
 public partial class App : Application
 {
-	public App()
+    public static ListaItems Lista { get; private set; }
+    public App(ListaItems listaItems)
 	{
 		InitializeComponent();
-
-		MainPage = new NavigationPage(new MainPage());
+        Lista = listaItems;
+        MainPage = new AppShell();
 	}
 }

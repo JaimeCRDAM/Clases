@@ -6,7 +6,10 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="MVVM\Views\Header.xaml">
+    <MauiXaml Update="MVVM\Views\BaseContentPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ListaViewItems.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
