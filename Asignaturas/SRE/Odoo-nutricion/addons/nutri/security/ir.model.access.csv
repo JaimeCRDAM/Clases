@@ -1,2 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_nutri_nutri,nutri.nutri,model_nutri_nutri,base.group_user,1,1,1,1
+access_nutri_dietista,nutri.dietista,model_nutri_dietista,base.group_user,1,1,1,1
+access_nutri_nutricionista,nutri.nutricionista,model_nutri_nutricionista,base.group_user,1,1,1,1
+access_nutri_paciente,nutri.paciente,model_nutri_paciente,base.group_user,1,1,1,1
+access_nutri_dieta,nutri.dieta,model_nutri_dieta,base.group_user,1,1,1,1
+access_nutri_dieta_revision,nutri.dieta_revision,model_nutri_dieta_revision,base.group_user,1,1,1,1
+access_nutri_taller,nutri.taller,model_nutri_taller,base.group_user,1,1,1,1

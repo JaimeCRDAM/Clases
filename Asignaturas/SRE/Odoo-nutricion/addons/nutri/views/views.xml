@@ -15,6 +15,28 @@
                 </form>
             </field>
         </record>
+        <record id="nutri.dietista_form" model="ir.ui.view">
+            <field name="name">nutri.dietist form</field>
+            <field name="model">nutri.dietista</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Personal Data"></separator>
+                                <field name="name"/>
+                                <field name="dni"/>
+                                <field name="especialidad"/>
+                            </group>
+                            <group>
+                                <separator string="Datos cosas"></separator>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
 
         <!-- View for nutri.nutricionista -->
         <record id="view_nutri_nutricionista_form" model="ir.ui.view">
@@ -31,9 +53,30 @@
                 </form>
             </field>
         </record>
+        <record id="nutri.nutricionista_form" model="ir.ui.view">
+            <field name="name">nutri.nutricionista form</field>
+            <field name="model">nutri.nutricionista</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Personal Data"></separator>
+                                <field name="name"/>
+                                <field name="dni"/>
+                                <field name="especialidad"/>
+                            </group>
+                            <group>
+                                <separator string="Datos cosas"></separator>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
 
         <!-- View for nutri.paciente -->
-        <record id="view_nutri_paciente_form" model="ir.ui.view">
+        <record id="nutri.paciente_tree" model="ir.ui.view">
             <field name="name">nutri.paciente.form</field>
             <field name="model">nutri.paciente</field>
             <field name="arch" type="xml">
@@ -50,6 +93,88 @@
                 </form>
             </field>
         </record>
+        <record id="nutri.paciente_form" model="ir.ui.view">
+            <field name="name">nutri.paciente form</field>
+            <field name="model">nutri.paciente</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <separator string="Personal Data"></separator>
+                                <field name="name"/>
+                                <field name="dni"/>
+                                <field name="historial"/>
+                                <field name="consultas"/>
+                            </group>
+                            <group>
+                                <separator string="Datos cosas"></separator>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="dietista_page" string="Dietista">
+                                <field name="dietista">
+                                    <tree>
+                                        <field name="name"/>
+                                        <!--<field name="topic"/>-->
+                                    </tree>
+                                </field>
+                            </page>
+                            <page name="nutricionista_page" string="Nutricionista">
+                                <field name="nutricionista">
+                                    <tree>
+                                        <field name="name"/>
+                                        <!--<field name="topic"/>-->
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="nutri.paciente_kanban" model="ir.ui.view">
+            <field name="name">nutri paciente kanban</field>
+            <field name="model">nutri.paciente</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="dni"></field>
+                    <field name="name"></field>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <!--<div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.classroom.raw_value)}} oe_kanban_global_click o_kanban_record_has_image_fill">-->
+                            <!-- Hemos asignado al div una clase de odoo oe_kanban_color# que a continuación recibe un número que asociará con un color. El número lo
+                            calcula a partir de una función javascript de odoo que es kanban_getcolor. Esta función recibe el valor de la clase y a partir de ese número
+                            devuelve un color que se concatenará a la clase y se pintará de un color. No estamos decidiendo realmente el color, pero sí asignando un color
+                            diferente en función del identificador de la clase del componente.
+
+                            Para que la función JS pueda acceder a classroom también tenemos que añadir el field fuera de templates-->
+                            <!--<a type="open">
+                                <img width="150" style="padding:5px" class="oe_kanban_image"
+                                     t-att-src="kanban_image('res.partner', 'image_1920', record.id.raw_value)"
+                                     alt="student image"/>
+                            </a>-->
+                            <div t-attf-class="oe_kanban_content">
+                                <h4>
+                                    <a type="edit">
+                                        <field name="name"></field>
+                                    </a>
+                                </h4>
+                                <ul>
+                                    <li>Nutricionista:
+                                        <field name="nutricionista"></field>
+                                        <br/>
+                                        Dietista:
+                                        <field name="dietista"></field>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--</div>-->
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
 
         <!-- View for nutri.dieta -->
         <record id="view_nutri_dieta_form" model="ir.ui.view">
@@ -59,6 +184,7 @@
                 <form>
                     <sheet>
                         <group>
+                            <field name="name"/>
                             <field name="nutricionista"/>
                             <field name="descripcion"/>
                             <field name="fecha"/>
@@ -83,6 +209,8 @@
                     <sheet>
                         <group>
                             <field name="dieta"/>
+                            <field name="paciente"/>
+                            <field name="nutricionista"/>
                             <field name="comentarios"/>
                             <field name="fecha"/>
                             <field name="hora"/>
@@ -115,6 +243,18 @@
                         </group>
                     </sheet>
                 </form>
+            </field>
+        </record>
+        <record id="view_task_calendar" model="ir.ui.view">
+            <field name="name">nutri.taller.calendar</field>
+            <field name="model">nutri.taller</field>
+            <field name="arch" type="xml">
+                <calendar>
+                    <field name="link"/>
+                    <field name="fecha"/>
+                    <field name="hora"/>
+                    <field name="tema" widget="priority"/>
+                </calendar>
             </field>
         </record>
 
