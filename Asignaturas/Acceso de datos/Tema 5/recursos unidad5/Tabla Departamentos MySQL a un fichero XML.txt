@@ -1,0 +1,10 @@
+Arrancar MySQL en XAMPP
+
+C:\xampp\mysql\bin>mysql --xml -u root -p -e "select * from departamentos;" ejemplo
+
+Pedirá lo contraseña de root: no la tenía.
+
+Si queremos que la salida vaya a un fichero:
+
+C:\xampp\mysql\bin>mysql --xml -u root -p -e "select * from departamentos;" ejemplo > departamentos.xml
+Puede que no se abra con el navegador por las mayúsculas acentuadas: INFORM Á TICA,...

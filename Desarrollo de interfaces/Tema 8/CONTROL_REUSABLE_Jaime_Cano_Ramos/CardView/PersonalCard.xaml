@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLib1.PersonalCard">
+    <Grid
+        RowDefinitions=".1*"
+        ColumnDefinitions=".5*,.5*"
+        BackgroundColor="Grey"
+        MaximumWidthRequest="300">
+        <VerticalStackLayout
+            Grid.Row="0"
+            Grid.Column="0">
+            <Label
+                Text="Studies at:"
+                TextColor="GreenYellow"/>
+            <Label
+                Text="{Binding StudyCenter}"
+                FontSize="20"/>
+            <Label
+                Text="Name"
+                TextColor="GreenYellow"/>
+            <Label
+                Text="{Binding AlumnName}"
+                FontSize="20"/>
+            <Label
+                Text="Born"
+                TextColor="GreenYellow"/>
+            <Label
+                Text="{Binding BornDate}"
+                FontSize="20"/>
+        </VerticalStackLayout>
+        <Image
+            Grid.Row="0"
+            Grid.Column="1"
+            Source="{Binding ImgSource}"
+            HorizontalOptions="Start"
+            MaximumHeightRequest="150"
+            />
+
+    </Grid>
+</ContentView>

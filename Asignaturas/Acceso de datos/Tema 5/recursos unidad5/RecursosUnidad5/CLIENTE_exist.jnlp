@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/exist/webstart/" href="exist.jnlp">
+<information>
+  <title>eXist XML-DB client</title>
+  <vendor>exist-db.org</vendor>
+  <homepage href="http://exist-db.org/"/>
+  <description>Integrated command-line and gui client, entirely based on the XML:DB API and provides commands for most database related tasks, like creating and removing collections, user management, batch-loading XML data or querying.</description>
+  <description kind="short">eXist XML-DB client</description>
+  <description kind="tooltip">eXist XML-DB client</description>
+  <icon href="jnlp_logo.jpg" kind="splash"/>
+  <icon href="jnlp_logo.jpg" />
+  <icon href="jnlp_icon_64x64.gif" width="64" height="64" />
+  <icon href="jnlp_icon_32x32.gif" width="32" height="32" />
+</information>
+<security>
+  <all-permissions />
+</security>
+<resources>
+<j2se version="1.5+"/>
+  <jar href="exist.jar" size="3658197"  main="true" />
+  <jar href="xmldb.jar" size="12227" />
+  <jar href="xmlrpc-common-3.1.2.jar" size="118975" />
+  <jar href="xmlrpc-client-3.1.2.jar" size="62348" />
+  <jar href="ws-commons-util-1.0.2.jar" size="37765" />
+  <jar href="commons-pool-1.5.4.jar" size="101948" />
+  <jar href="excalibur-cli-1.0.jar" size="25699" />
+  <jar href="jEdit-syntax.jar" size="85698" />
+  <jar href="jline-0.9.94.jar" size="91938" />
+  <jar href="log4j-1.2.15.jar" size="414452" />
+  <jar href="slf4j-api-1.6.0.jar" size="28727" />
+  <jar href="slf4j-log4j12-1.6.0.jar" size="11694" />
+  <jar href="stax-api-1.0.1.jar" size="30314" />
+  <jar href="sunxacml-1.2.jar" size="206038" />
+</resources>
+<application-desc main-class="org.exist.client.InteractiveClient">
+  <argument>-ouri=xmldb:exist://localhost:8080/exist/xmlrpc</argument>
+  <argument>--no-embedded-mode</argument>
+</application-desc>
+</jnlp>
