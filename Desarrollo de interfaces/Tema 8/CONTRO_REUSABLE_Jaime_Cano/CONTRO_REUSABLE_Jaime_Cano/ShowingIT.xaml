@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:MauiLib1"
+             xmlns:local="clr-namespace:CONTRO_REUSABLE_Jaime_Cano"
              x:Class="CONTRO_REUSABLE_Jaime_Cano.ShowingIT"
              Title="ShowingIT">
     <VerticalStackLayout>
-        
+        <local:PersonalCard
+                        StudyCenter="{Binding cardModel.StudyCenter}"
+                        AlumnName="{Binding cardModel.AlumnName}"
+                        BornDate="{Binding cardModel.BornDate}"
+                        ImgSource="{Binding cardModel.BornDate}">
+        </local:PersonalCard>
+        <CollectionView ItemsSource="{Binding personalCards}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <local:PersonalCard
+                        StudyCenter="{Binding StudyCenter}"
+                        AlumnName="{Binding AlumnName}"
+                        BornDate="{Binding BornDate}"
+                        ImgSource="{Binding BornDate}"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </VerticalStackLayout>
 </ContentPage>

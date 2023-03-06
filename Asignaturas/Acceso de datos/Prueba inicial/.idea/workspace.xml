@@ -6,12 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="92e9f07e-cf69-4e3d-96b8-5caa6bf7a7c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/CLI/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.metadata.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.metadata.v5.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.projects.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/.vs/ProjectEvaluation/cli.projects.v5.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Ejercicios/Ejercicio_1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Ejercicios/Ejercicio_1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desarrollo de interfaces/CLI/ConsoleApp1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/FileContentIndex/51a85d75-c4ed-41a1-beee-8948eddf4cc4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/FileContentIndex/d02ac7a7-83d8-4f92-b671-b90c2967a712.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/FileContentIndex/e8d289f8-1fbd-4cfd-a4cf-6757751dc3a7.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/CONTRO_REUSABLE_Jaime_Cano/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/ProjectEvaluation/contro_reusable_jaime_cano.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/ProjectEvaluation/contro_reusable_jaime_cano.metadata.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/ProjectEvaluation/contro_reusable_jaime_cano.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/.vs/ProjectEvaluation/contro_reusable_jaime_cano.projects.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/CardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/CardModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/PersonalCard.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/PersonalCard.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/PersonalCard.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/PersonalCard.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/ShowingIT.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/ShowingIT.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/ShowingIT.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desarrollo de interfaces/Tema 8/CONTRO_REUSABLE_Jaime_Cano/CONTRO_REUSABLE_Jaime_Cano/ShowingIT.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +65,8 @@
       <workItem from="1663585843922" duration="430000" />
       <workItem from="1663757521090" duration="10000" />
       <workItem from="1663757547486" duration="2000" />
+      <workItem from="1678088048593" duration="170000" />
+      <workItem from="1678088239017" duration="618000" />
     </task>
     <servers />
   </component>

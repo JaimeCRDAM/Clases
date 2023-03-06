@@ -1,6 +1,6 @@
 using Maui.BindableProperty.Generator.Core;
 
-namespace MauiLib1;
+namespace CONTRO_REUSABLE_Jaime_Cano;
 
 public partial class PersonalCard : ContentView
 {

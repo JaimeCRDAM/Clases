@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CONTRO_REUSABLE_Jaime_Cano", "CONTRO_REUSABLE_Jaime_Cano\CONTRO_REUSABLE_Jaime_Cano.csproj", "{EBC79B98-9678-401E-83F5-E54689A6F3F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiLib2", "MauiLib2\MauiLib2.csproj", "{B475DFE0-B564-4767-AB3B-8B922845D8B3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,10 +17,6 @@ Global
 		{EBC79B98-9678-401E-83F5-E54689A6F3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBC79B98-9678-401E-83F5-E54689A6F3F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBC79B98-9678-401E-83F5-E54689A6F3F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{B475DFE0-B564-4767-AB3B-8B922845D8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B475DFE0-B564-4767-AB3B-8B922845D8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B475DFE0-B564-4767-AB3B-8B922845D8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B475DFE0-B564-4767-AB3B-8B922845D8B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
